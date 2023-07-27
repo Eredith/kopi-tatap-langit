@@ -2,7 +2,8 @@
     /* ============== Font and Typography ==============*/
     --header-font: 'Merriweather', serif;
     --body-font: 'Merriweather Sans', sans-serif;
-    --color-1: #ecffb2;
+    --special-font: 'Mr Dafoe', cursive;
+    --color-1: #dc6609;
     --button-1: #3a5786;
     --color-2: #171717;
 }
@@ -119,7 +120,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(./assets/Layer\ 2.png);
+    background-image: url(./assets/Layer\ 33.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -246,7 +247,15 @@
     font-family: var(--header-font);
     color: var(--color-1);
     font-size: 4em;
+    font-weight: 400;
     margin-bottom: 3vw;
+}
+
+.tatap {
+    font-family: var(--special-font);
+    font-size: 4em;
+    color: var(--color-1);
+    margin-top: 3vw;
 }
 
 img.zoom {
